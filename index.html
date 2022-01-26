@@ -10,6 +10,7 @@
             /*取消table标签中的单元格空白*/
             .mt {
              border-collapse: collapse;
+             width: auto;
             }
         </style>
         <script src="http://mediaplayer.yahoo.com/js"></script>
@@ -22,12 +23,19 @@
             <tr>
                 <th>列表</th>
                 <th>朗读音频</th>
-                <th>下载PDF</th>
+                <th>下载音频</th>
+                <th>下载PDF（暂不支持在线阅读）</th>
             </tr>
             <tr>
                 <td>第1期</td>
                 <td>
-                    <a href="音频/1.mp3">点击播放</a>
+                    <audio controls>
+                        <source src="音频/1.mp3">
+                        抱歉，您的浏览器不支持在线播放MP3格式音频，请尝试更换浏览器！
+                    </audio>
+                </td>
+                <td>
+                    <a href="音频/1.mp3">点击下载</a>
                 </td>
                 <td>
                     <a href="文本/1.pdf">点击下载</a>
