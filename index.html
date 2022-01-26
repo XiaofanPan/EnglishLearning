@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
-        <meta charset="UTF-8"><meta>
+        <meta charset="UTF-8" ><meta>
         <title>英语阅读材料音频</title>
         <style>
             tr td,th {
-            border: 3px solid black;
+            border: 2px solid black;
             }
             /*取消table标签中的单元格空白*/
             .mt {
              border-collapse: collapse;
             }
-            </style>
+        </style>
+        <script src="http://mediaplayer.yahoo.com/js"></script>
     </head>
     <body>
         <h1>
@@ -19,8 +20,8 @@
         </h1>
         <table class="mt">
             <tr>
-                <th>目前已发列表</th>
-                <th>播放音频</th>
+                <th>列表</th>
+                <th>朗读音频</th>
                 <th>下载PDF</th>
             </tr>
             <tr>
@@ -30,6 +31,7 @@
                         <source src="音频/1.mp3" type="audio/mpeg">
                         抱歉，您的浏览器不支持MP3在线播放，请尝试更换浏览器！
                     </audio>
+                    <a href="音频/1.mp3">点击播放</a>
                 </td>
                 <td>
                     <a href="文本/1.pdf">点击下载</a>
