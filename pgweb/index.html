@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标题</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 10px;
+            width: 200px;
+        }
+
+        .nav-bar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #90ee90; /* 浅绿色 */
+            padding: 10px;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: center;
+            width: 60%; /* 网页宽度的60% */
+            margin: 20px auto; /* 居中 */
+        }
+
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #000; /* 黑色背景 */
+            color: #fff; /* 白色文字 */
+            text-align: left; /* 文字居左 */
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>网站标题</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="搜索...">
+        </div>
+    </div>
+    <div class="nav-bar">
+        <a href="#">首页</a>
+        <a href="#">活动</a>
+        <a href="#">资源</a>
+        <a href="#">论坛</a>
+        <a href="#">反馈</a>
+    </div>
+    <div class="main-content">
+        <img src="centerpic.svg" alt="中心图片">
+    </div>
+    <footer>
+        <p>版权所有 &copy; 2023</p>
+        <p>潘、桂二人，2023年7月</p>
+    </footer>
+</body>
+
+</html>
